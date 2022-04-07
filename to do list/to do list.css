@@ -1,0 +1,115 @@
+.input {
+    display: flex;
+    background-color: rgb(186, 64, 93);
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 4%;
+    margin: 7%;
+}
+
+#myInput {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 75%;
+}
+
+h2 {
+    color: rgb(133, 192, 187);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+    margin: 1px;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+.addbtn {
+    display: block;
+    background: rgb(133, 192, 187);
+    color: black;
+    text-align: center;
+    text-decoration: double;
+    cursor: pointer;
+    font-size: 16px;
+    width: 25%;
+}
+.addbtn:hover{
+    background-color: rgb(133, 192, 187);
+    color:darkgray;
+}
+.flex {
+    display: flex;
+    padding: 0%;
+    margin: 0% 8%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 0;
+    /*border: 1px solid black;*/
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#add {
+    text-align: center;
+    align-self: center;
+    display: block;
+    font-family: "Bookman Old Style";
+
+
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    margin:0 8% ;
+    background: rgb(243, 222, 236);
+    font-size: 18px;
+    transition: 0.2s;
+    flex:1 0 auto ;
+}
+
+ul li:nth-child(odd){
+background: #eeebeb;
+}
+
+ul{
+    list-style-type: none;
+
+}
+.checked{
+    text-decoration: line-through;
+    color: white;
+    background: dimgrey;
+}
+.close{
+    display: block ;
+    background-color: dimgrey;
+    color:white;
+    text-decoration : double;
+    text-align: center;
+    margin:0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    cursor:pointer;
+}
+
+.close:hover{
+    background-color: gray;
+    color:darkgray;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+
+}

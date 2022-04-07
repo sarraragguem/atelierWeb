@@ -1,0 +1,30 @@
+h2{
+    font-family: "Arial";
+    color: powderblue;
+    text-align: center;
+}
+#btn{
+    text-align: center;
+    font-family: "Arial Rounded MT Bold";
+
+}
+.addbtn{
+    background-color: burlywood;
+    padding:10px;
+
+    border-style: groove;
+    border-width: medium;
+    border-color: beige;
+    width:25%;
+    height : 40px;
+    align-self: center;
+
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+}
